@@ -1,0 +1,165 @@
+/*geral*/
+*{
+    margin:0;
+    padding:0;
+    font-family:"roboto";
+    box-sizing: border-box;
+    border: none;
+
+}
+
+html::-webkit-scrollbar{
+    width: 1.0rem;
+}
+
+html::-webkit-scrollbar{
+    background: transparent;
+}
+
+html::-webkit-scrollbar{
+    background-color: rgb(15, 128, 15);
+    border-radius: 5rem;
+}
+
+
+
+
+#imagem_fundo{
+    background-image: url("img/imagem\ fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height: 100vh;
+    
+}
+
+
+#titulo{
+    color:bisque;
+    text-align:center ;
+    padding-top:30%;
+    font-size: 60px;
+}
+
+#subtitulo{
+    color:bisque;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 30px;
+}
+
+ button a{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color:rgb(31, 241, 76);
+    font-size: 1.0rem;
+    padding: 20px 18px;
+    cursor: pointer;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 18%;
+    
+}
+
+.icone{
+    color: bisque;
+    width: 60px;
+
+    
+}
+
+section{
+    padding: 20px;
+    float:left ;
+}
+
+#projeto{
+    background-color:rgba(158, 133, 133, 0.788);
+    padding: 20px;
+}
+
+#selecao{
+    padding:20px;
+    background-color:rgba(158, 133, 133, 0.788);
+}
+
+#ecoturismo{
+    background-color: rgba(158, 133, 133, 0.788);
+    padding: 20px;
+}
+
+.img-turismo{
+    width:65% ;
+    border-radius:15%;
+    margin-left: 21rem;
+}
+
+.coluna{
+    float: left;
+    padding: 0.5%;
+    position: relative;
+    width:40%;
+  
+}
+
+
+.justificado {
+    text-align: justify;
+    color: bisque;
+
+
+}
+
+.centralizado{
+    text-align: center;
+    color: bisque;
+    font-size: 30px;
+
+}
+
+.colunaquatro{
+    color: bisque;  
+    width: 15%;
+    text-align: right;
+    text-align: justify;
+
+}
+
+.coluna tres{
+    float:left;
+    position:relative;
+    padding:0 5%;
+
+}
+
+.texto{
+
+    margin-left: 28rem;
+    color:bisque;
+    font-size: 25px;
+}
+
+.destaque{
+    margin-left: 3rem;
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
